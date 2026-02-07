@@ -18,8 +18,6 @@ warnings.filterwarnings("ignore", message=".*UnknownVersionWarning.*")
 load_dotenv()
 getLogger("mafic").setLevel(DEBUG)
 
-check_credits()
-
 TOKEN = getenv("DISCORD_TOKEN")
 if not TOKEN:
     raise ValueError("[ERROR] ❌ Token não encontrado! Configure DISCORD_TOKEN no .env")
@@ -36,7 +34,7 @@ class Bot(commands.InteractionBot):
             return
 
         await self.pool.create_node(
-            host="lavalinkv3.serenetia.com", # lavalink público que achei na net ai (para os curiosos esse é o site deles: https://freelavalink.serenetia.com/)
+            host="lavalinkv3.serenetia.com",
             port=80,
             label="PRINCIPAL",
             password="https://dsc.gg/ajidevserver",
