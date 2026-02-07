@@ -1,0 +1,5 @@
+disnake
+mafic
+aiohttp
+python-dotenv
+requests
