@@ -17,10 +17,7 @@ Before getting started, make sure you have:
 1.  Open the **`.env`** file
 2.  Add your bot token:
 
-```{=html}
-<!-- -->
-```
-    DISCORD_TOKEN=your_bot_token_here
+```DISCORD_TOKEN=your_bot_token_here```
 
 ------------------------------------------------------------------------
 
