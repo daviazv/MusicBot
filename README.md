@@ -1,51 +1,43 @@
-# Music Bot
-A **simple, fast, and easy-to-use** music bot for Discord servers.\
-Perfect for anyone who wants to play music without complications, with
-straightforward commands and lightweight performance.
+# 🎵 Discord Music Bot
 
-------------------------------------------------------------------------
+A fast and lightweight **Discord music bot** built with Python and Disnake.
 
-## Requirements
-Before getting started, make sure you have:
+## ✨ Features
+- Play music from YouTube
+- Playlist system
+- Queue management
+- Fast and lightweight player
 
--   Python **3.9 or higher**
--   A bot created in the https://discord.com/developers/applications
+## 📦 Installation
 
-------------------------------------------------------------------------
+1. Clone the repository
 
-## Configuration
-1.  Open the **`.env`** file
-2.  Add your bot token:
+git clone https://github.com/seuuser/musicbot.git
 
-```DISCORD_TOKEN=your_bot_token_here```
+2. Install dependencies
 
-------------------------------------------------------------------------
+pip install -r requirements.txt
 
-## Installation
-In your terminal, inside the project folder, run:
+3. Configure the `.env`
 
-    pip install -r requirements.txt
+DISCORD_TOKEN=your_token_here
 
-This will install all required dependencies, including the **disnake**
-library.
+4. Start the bot
 
-------------------------------------------------------------------------
+python main.py
 
-## Starting the bot
-After installing the dependencies, start the bot with:
+## 🎮 Commands
 
-    python main.py
+| Command | Description |
+|-------|--------|
+| play | Play a song |
+| skip | Skip current song |
+| queue | Show queue |
+| playlist | Manage playlists |
 
-If everything is configured correctly, the bot will go online in your
-server.
+## 🛠 Technologies
+- Python
+- Disnake
 
-------------------------------------------------------------------------
-
-## Technologies used
--   Python
--   disnake
-
-------------------------------------------------------------------------
-
-## Reminder
-This project is in Brazilian Portuguese.
+## 👨‍💻 Author
+Davi Azevedo
